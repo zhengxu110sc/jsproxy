@@ -38,9 +38,8 @@ jsproxy_config({
       label: '',
       hidden: true,
       lines: {
-        https://sweet-butterfly-249c.zhengxu.workers.dev,
          // 收费版（高权重）
-        'node-cfworker-2.etherdream.com': 4,
+        'https://sweet-butterfly-249c.zhengxu.workers.dev': 4,
 
         // 免费版（低权重，分摊一些成本）
         // 每个账号每天 10 万次免费请求，但有频率限制
