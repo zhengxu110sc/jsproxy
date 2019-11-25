@@ -60,7 +60,7 @@ jsproxy_config({
   /**
    * 加速节点
    */
-  node_acc: 'https://sweet-butterfly-249c.zhengxu.workers.dev',
+  node_acc: 'cfworker',
 
   /**
    * 静态资源 CDN 地址
@@ -86,8 +86,7 @@ jsproxy_config({
    * URL 自定义处理（设计中）
    */
   url_handler: {
-    https://sweet-butterfly-249c.zhengxu.workers.dev
-    'https://www.baidu.com/img/baidu_resultlogo@2.png': {
+      'https://www.baidu.com/img/baidu_resultlogo@2.png': {
       replace: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png'
     },
     'https://www.pornhub.com/': {
