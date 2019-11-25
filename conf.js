@@ -12,8 +12,7 @@ jsproxy_config({
 
   // 节点配置
   node_map: {
-    https://sweet-butterfly-249c.zhengxu.workers.dev
-    'demo-hk': {
+      'demo-hk': {
       label: '演示服务-香港节点',
       lines: {
         // 主机:权重
@@ -24,6 +23,7 @@ jsproxy_config({
     'demo-sg': {
       label: '演示服务-新加坡节点',
       lines: {
+        
         'node-aliyun-sg.etherdream.com:8443': 1,
       },
     },
@@ -60,7 +60,7 @@ jsproxy_config({
   /**
    * 加速节点
    */
-  node_acc: 'cfworker',
+  node_acc: 'https://sweet-butterfly-249c.zhengxu.workers.dev',
 
   /**
    * 静态资源 CDN 地址
