@@ -12,7 +12,7 @@ jsproxy_config({
 
   // 节点配置
   node_map: {
-    
+    https://sweet-butterfly-249c.zhengxu.workers.dev
     'demo-hk': {
       label: '演示服务-香港节点',
       lines: {
