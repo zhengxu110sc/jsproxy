@@ -12,6 +12,7 @@ jsproxy_config({
 
   // 节点配置
   node_map: {
+    
     'demo-hk': {
       label: '演示服务-香港节点',
       lines: {
@@ -37,8 +38,7 @@ jsproxy_config({
       label: '',
       hidden: true,
       lines: {
-        https://sweet-butterfly-249c.zhengxu.workers.dev
-        // 收费版（高权重）
+         // 收费版（高权重）
         'node-cfworker-2.etherdream.com': 4,
 
         // 免费版（低权重，分摊一些成本）
@@ -86,6 +86,7 @@ jsproxy_config({
    * URL 自定义处理（设计中）
    */
   url_handler: {
+    https://sweet-butterfly-249c.zhengxu.workers.dev
     'https://www.baidu.com/img/baidu_resultlogo@2.png': {
       replace: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png'
     },
